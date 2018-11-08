@@ -47,7 +47,8 @@ module.exports = {
       // filename: resolve('dist/index.html')'
     }),
     new webpack.ProvidePlugin({
-      $: 'jquery'
+      $: 'jquery',
+      React:"react"
     })
   ],
   devServer: {

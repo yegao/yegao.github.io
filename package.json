@@ -4,7 +4,8 @@
   "description": "叶锆锆的博客",
   "scripts": {
     "dev":"npx webpack",
-    "start": "npx webpack & npx webpack-dev-server"
+    "server":"npx webpack-dev-server",
+    "start": "npm run dev & npm run server"
   },
   "repository": {
     "type": "git",
